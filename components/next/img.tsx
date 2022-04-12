@@ -40,8 +40,7 @@ export function Img({
   style.backgroundImage = `url("${dummyPlaceholder}")`;
   style.contentVisibility = "auto";
   const ref = useRef<HTMLImageElement>(null);
-  const srcSet = undefined;
-  dummySrcset;
+  const srcSet = dummySrcset;
   const sizesAttr = sizes ? sizes : "100vw";
   return (
     <img
