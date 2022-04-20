@@ -45,7 +45,7 @@ export function Img({
     <>
       <img
         ref={ref}
-        src={sizesAttr ? src : undefined}
+        src={sizesAttr ? src : dummyPlaceholder}
         width={width}
         height={height}
         sizes={sizesAttr}
