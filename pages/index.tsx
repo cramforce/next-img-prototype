@@ -23,8 +23,9 @@ const Home: NextPage = () => {
             src="https://www.industrialempathy.com/img/remote/ZiApcF-1920w.jpg"
             width="2006"
             height="1120"
-            style={{ maxWidth: "100%", height: "auto" }}
+            style={{ maxWidth: "25%", height: "auto" }}
           />
+          <br></br>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
